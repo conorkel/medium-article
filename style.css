@@ -1,0 +1,58 @@
+@media (max-width: 750px)
+
+.container {
+    width: 450px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+/* Custom design */
+.banner {
+  font-size: 50px;
+  background-image: url("http://unsplash.it/1000/600");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+/* Media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
